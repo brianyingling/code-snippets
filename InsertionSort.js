@@ -1,3 +1,7 @@
+// Like sorting a hand of cards, shift all numbers in the array over
+// until the number compared is less than the current number
+// being sorted.
+
 function InsertionSort(nums) {
 	for (var i=0; i < nums.length; i++) {
 		var current = nums[i];
