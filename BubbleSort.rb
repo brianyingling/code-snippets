@@ -2,7 +2,7 @@ def BubbleSort(nums)
 	swapped = true
 	while swapped
 		swapped = false
-		for i in 0..nums.size-2
+		(0..nums.size-2).each do |i|
 			if nums[i] > nums[i+1]
 				temp = nums[i+1]
 				nums[i+1] = nums[i]
