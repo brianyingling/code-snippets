@@ -7,7 +7,7 @@ function InsertionSort(nums) {
 		// for current's new slot
 		while (j >= 0 && current < nums[j]) {
 			nums[j+1] = nums[j];
-			j = j-1;
+			j--;
 		}
 		nums[j+1] = current;
 	}
