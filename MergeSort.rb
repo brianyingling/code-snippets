@@ -2,8 +2,8 @@
 def MergeSort(nums)
 	return nums if nums.size < 2
 	middle 	= (nums.size / 2)
-	left = nums[0, middle]
-	right = nums[middle, nums.size-middle]
+	left 	= nums[0, middle]
+	right 	= nums[middle, nums.size-middle]
 	merge MergeSort(left), MergeSort(right)
 end
 
