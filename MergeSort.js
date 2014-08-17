@@ -1,8 +1,9 @@
 // MergeSort involves merging two already sorted
 // arrays together. Splits the array in half and then
 // uses recursion to further divide each array  
-// until each element is an array of one. Then sorts
-// and merges the array.
+// until each element is an array of one. Then compares
+// two numbers in each array and combines them to build
+// larger arrays.
 
 function MergeSort(nums) {
 	if (nums.length < 2) return nums;
