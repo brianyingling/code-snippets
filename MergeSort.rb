@@ -4,7 +4,7 @@ def MergeSort(nums)
 	middle 	= (nums.size / 2)
 	left 	= nums.slice 0, middle
 	right	= nums.slice middle, nums.size-middle
-	merge(MergeSort(left), MergeSort(right))
+	merge MergeSort(left), MergeSort(right)
 end
 
 def merge(left, right)
